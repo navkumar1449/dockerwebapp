@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image:  naveen552/automation:app
+    image: naveen552/automation:app
     ports:
       - "1111:8080"
     deploy:
